@@ -1,0 +1,28 @@
+#header {
+    display: flex;
+    background-color: white;
+    height: 10vh; 
+    align-items: center;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+}
+#espaço{
+    display: flex;
+    height: 0.2vh;
+    background-color: brown;
+}
+#barrinha{
+    display: flex;
+    width: 0.2vw;
+    background-color: brown;
+    height: 7vh;
+}
+#marca{
+    display: flex;
+    width: 10vw;
+}
+
