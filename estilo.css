@@ -1,28 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 #header {
     display: flex;
-    background-color: white;
-    height: 10vh; 
+    height: 10vh;
     align-items: center;
 }
-ul{
+
+ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 30vw;
+    border-right: 300px solid white;
 }
-#espaço{
+
+#espaço {
     display: flex;
     height: 0.2vh;
     background-color: brown;
 }
-#barrinha{
+
+#barrinha {
     display: flex;
     width: 0.2vw;
     background-color: brown;
     height: 7vh;
 }
-#marca{
+
+#marca {
     display: flex;
     width: 10vw;
 }
 
+#foto-whatts {
+    display: flex;
+    width: 1vw;
+    height: 2.5vh;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 12vw;
+    background-color: brown;
+    height: 7vh;
+    border-radius: 30px;
+}
+
+#local {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blueviolet;
+    width: 17vw;
+    height: 7vh;
+    border-radius: 30px;
+}
+
+#contato-local {
+    display: flex;
+    justify-content: right;
+    justify-content: space-around;
+    width: 30vw;
+    align-items: center;
+}
+
+#foto-do-baner-principal {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+}
+
+#nada {
+    display: flex;
+    height: 1vh;
+}
