@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(187, 188, 188);
+    background-color: rgb(221, 221, 221);
 }
 
 #header {
@@ -32,8 +38,9 @@ body {
 #grid {
     display: grid;
     height: 300vh;
-    grid-template-columns: 20% 2.5% 20% 2.5% 20% 2.5% 20% 2.5% 20%;
+    grid-template-columns: 20% 2.5% 20% 2.5% 20% 2.5% 20%;
     grid-template-rows: 28% 28% 28% 28% 28%;
+    justify-content: center;
 }
 
 #motoA {
@@ -213,4 +220,30 @@ a {
     align-items: center;
     width: 15vw;
     justify-content: center;
+}
+
+#nome-loja{
+    display: flex;
+    flex-direction: row;
+}
+#azul{
+    color: blue;
+}
+#roxo{
+    color: purple;
+}
+#vermelho {
+    color: red;
+}
+#jjj{
+    display: flex;
+    width: 30vw;
+}
+#rodape{
+    display: flex;
+    background-color: rgb(134, 133, 133);
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }

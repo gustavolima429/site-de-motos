@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
 }
 
 
@@ -9,13 +13,14 @@ body {
     display: flex;
     height: 10vh;
     align-items: center;
+    
 }
 
 ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 30vw;
+    width: 40vw;
     border-right: 300px solid white;
 }
 
@@ -75,11 +80,62 @@ ul {
 
 #foto-do-baner-principal {
     display: flex;
-    height: 80vh;
+    height: 73vh;
     justify-content: center;
+    border-radius: 20px;
 }
+#foto-do-baner-principal img{
+    display: flex;
 
+
+}
 #nada {
     display: flex;
     height: 1vh;
+}
+#rodape{
+    display: flex;
+    background-color: rgb(134, 133, 133);
+    height: 20vh;
+    align-items: center;
+    border-radius: 20px;
+}
+#redes-contatos{
+    display: flex;
+    height: 20vh;
+    width: 40vw;
+    border-radius: 20px;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+}
+#redes-contatos a{
+    display: flex;
+    text-decoration: none;
+}
+
+#redes-contatos Ins{
+    display: flex;
+    text-decoration: none;
+    color: purple;
+}
+#redes-contatos Fac{
+    display: flex;
+    text-decoration: none;
+    color: blue;
+}
+
+
+#nome-loja{
+    display: flex;
+    flex-direction: row;
+}
+#azul{
+    color: blue;
+}
+#roxo{
+    color: purple;
+}
+#vermelho {
+    color: red;
 }
