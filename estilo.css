@@ -4,10 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: Verdana, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
 }
 
 
@@ -15,8 +19,10 @@ body {
     display: flex;
     height: 10vh;
     align-items: center;
-
+    text-decoration: none;
+    justify-content: space-around;
 }
+
 
 ul {
     display: flex;
@@ -39,9 +45,16 @@ ul {
     height: 7vh;
 }
 
-#marca {
+#marcas {
     display: flex;
-    width: 10vw;
+    width: 50vw;
+    text-decoration: none;
+    justify-content:space-around ;
+}
+#marcas h2 {
+    display: flex;
+    text-decoration: none;
+
 }
 
 #foto-whatts {
@@ -125,6 +138,8 @@ ul {
 #nome-loja {
     display: flex;
     flex-direction: row;
+    height: 7vh;
+    align-items: center;
 }
 
 #azul {
@@ -138,28 +153,33 @@ ul {
 #vermelho {
     color: red;
 }
+#fotoloja{
+    display: flex;
+    height: 7vh;
+}
 
 #banner {
     display: flex;
     width: 100vw;
     justify-content: center;
     background-color: blue;
+    justify-content: space-around ;
 }
 
 #banner_animado {
     display: flex;
     height: 73vh;
-
     justify-content: center;
+    justify-content: space-around;
     border-radius: 20px;
-    animation: go-back 10s infinite linear;
+    animation: animacao  40s infinite linear;
     background-color: blueviolet;
 }
 
-@keyframes go-back {
+@keyframes animacao {
 
     0% {
-        transform: translateX(-1000px);
+        transform: translateX(-4000px);
     }
 
     100% {
@@ -203,6 +223,7 @@ ul {
     border-radius: 20px;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 #motoR1 img {
@@ -210,6 +231,38 @@ ul {
     height: 30vh;
     width: 20vw;
     border-radius: 20px;
+    
 
 
+}
+
+/*sistema de login (nao funciona)*/
+#log-in{
+    display: flex;
+    background-color: dimgray;
+    width: 15vw;
+    height: 7vh;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+#log-in a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(247, 20, 4);
+    width: 15vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+#ver-moto {
+    display: flex;
+    width: 7vw;
+    height: 7vh;
+    background-color: darkgray;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
 }
