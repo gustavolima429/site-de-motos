@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Verdana, Tahoma, sans-serif;
 }
@@ -13,7 +15,7 @@ body {
     display: flex;
     height: 10vh;
     align-items: center;
-    
+
 }
 
 ul {
@@ -78,64 +80,136 @@ ul {
     align-items: center;
 }
 
-#foto-do-baner-principal {
-    display: flex;
-    height: 73vh;
-    justify-content: center;
-    border-radius: 20px;
-}
-#foto-do-baner-principal img{
-    display: flex;
 
-
-}
 #nada {
     display: flex;
     height: 1vh;
 }
-#rodape{
+
+#rodape {
     display: flex;
     background-color: rgb(134, 133, 133);
     height: 20vh;
     align-items: center;
     border-radius: 20px;
 }
-#redes-contatos{
+
+#redes-contatos {
     display: flex;
     height: 20vh;
     width: 40vw;
     border-radius: 20px;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
     flex-direction: column;
 }
-#redes-contatos a{
+
+#redes-contatos a {
     display: flex;
     text-decoration: none;
 }
 
-#redes-contatos Ins{
+#redes-contatos Ins {
     display: flex;
     text-decoration: none;
     color: purple;
 }
-#redes-contatos Fac{
+
+#redes-contatos Fac {
     display: flex;
     text-decoration: none;
     color: blue;
 }
 
 
-#nome-loja{
+#nome-loja {
     display: flex;
     flex-direction: row;
 }
-#azul{
+
+#azul {
     color: blue;
 }
-#roxo{
+
+#roxo {
     color: purple;
 }
+
 #vermelho {
     color: red;
+}
+
+#banner {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    background-color: blue;
+}
+
+#banner_animado {
+    display: flex;
+    height: 73vh;
+
+    justify-content: center;
+    border-radius: 20px;
+    animation: go-back 10s infinite linear;
+    background-color: blueviolet;
+}
+
+@keyframes go-back {
+
+    0% {
+        transform: translateX(-1000px);
+    }
+
+    100% {
+        teransform: translateX(1px);
+    }
+
+}
+
+#tudo {
+    display: flex;
+    height: 80vh;
+    background: #3300ff;
+    background: linear-gradient(60deg, rgba(51, 0, 255, 1) 0%, rgba(0, 30, 255, 1) 24%, rgba(0, 229, 255, 1) 100%);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*motos recomendadas com id de motoRN*/
+#tudo {
+    display: flex;
+    flex-direction: column;
+}
+
+#motos_em_destaque {
+    display: flex;
+    border-radius: 20px;
+    height: 60vh;
+    width: 90vw;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#motoR1 {
+    display: flex;
+    height: 45vh;
+    width: 20vw;
+    background-color: grey;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#motoR1 img {
+    display: flex;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 20px;
+
+
 }
