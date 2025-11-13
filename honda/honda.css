@@ -140,6 +140,7 @@ body {
     background-color: rgb(106, 106, 106);
     flex-direction: column;
     border-radius: 10px;
+    align-items: center;
 }
 
 #foto-calendario {
@@ -150,10 +151,10 @@ body {
 
 #info {
     display: flex;
-    height: 16vh;
+    height: 40vh;
     width: 15vw;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-end;
     text-align: center;
 }
 
@@ -252,4 +253,170 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    
+}
+@media (max-width:850px){
+    #nome-loja{
+        display: flex;
+        border-top: 20px solid rgb(221, 221, 221);
+        
+    }
+    #rodape {
+        display: flex;
+        width: 100vw;
+    }
+
+    #header{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        width: 91vw;
+        
+    }
+    
+    #grid {
+        display: grid;
+        height: 300vh;
+        grid-template-columns: 20% 2.5% 20% 2.5% 20%;
+        grid-template-rows: 28% 28% 28% 28% 28%;
+        justify-content: center;
+    }
+    #motoA {
+        grid-column-start: 1;
+        display: flex;
+       
+    }
+    
+    #motoB {
+        grid-column-start: 3;
+        display: flex;
+        
+    }
+    
+    #motoC {
+        grid-column-start: 5;
+        display: flex;
+       
+    }
+    
+    #motoD {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        display: flex;
+        
+    }
+    
+    #motoE {
+        grid-column-start: 3; 
+        grid-row-start: 2;
+        display: flex;
+        
+    }
+    
+    #motoF {
+        grid-row-start: 2; 
+        grid-column-start: 5;
+        display: flex;
+        
+    }
+    
+    #motoG {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        display: flex;
+        
+    }
+    
+    #motoH {
+        grid-row-start: 3;
+        grid-column-start: 3;
+        display: flex;
+       
+    }
+}
+
+@media (max-width:425px){
+    #nome-loja{
+        display: flex;
+        border-top: 20px solid rgb(221, 221, 221);
+        
+    }
+
+    #header{
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        
+    }
+    
+    #grid {
+        display: grid;
+        height: 500vh;
+        grid-template-columns: 20% 40% 20%;
+        grid-template-rows: 28% 28% 28% 28% 28% 28% 2%;
+        justify-content: center;
+    }
+    #motoA {
+        grid-column-start: 1;
+        display: flex;
+        width: 40vw;
+       
+    }
+    
+    #motoB {
+        grid-column-start: 3;
+        display: flex;
+        width: 40vw;
+    }
+    
+    #motoC {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        display: flex;
+        width: 40vw;
+    }
+    
+    #motoD {
+        grid-column-start: 3;
+        grid-row-start: 2;
+        display: flex;
+        width: 40vw;
+    }
+    
+    #motoE {
+        grid-column-start: 1; 
+        grid-row-start: 3;
+        display: flex;
+        width: 40vw;
+    }
+    
+    #motoF {
+        grid-row-start: 3; 
+        grid-column-start: 3;
+        display: flex;
+        width: 40vw;
+    }
+    
+    #motoG {
+        grid-row-start: 4;
+        grid-column-start: 1;
+        display: flex;
+        width: 40vw;
+    }
+    
+    #motoH {
+        grid-row-start: 4;
+        grid-column-start: 3;
+        display: flex;
+        width: 40vw;
+    } 
+    #sobre-moto{
+        display: flex;
+        width: 40vw;
+    }
+    #rodape {
+        display: flex;
+        width: 113vw;
+        
+    }
 }

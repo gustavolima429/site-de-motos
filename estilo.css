@@ -57,7 +57,6 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     width: 30vw;
-    border-bottom: 10px solid white;
 }
 
 #versao {
@@ -361,7 +360,6 @@ ul {
         height: 15vh;
         width: 79px;
         justify-content: space-around;
-        border-right: 15px solid white;
 
     }
 
@@ -455,10 +453,9 @@ ul {
 
     #motos_em_destaque {
         display: flex;
-        height: 2 00vh;
+        height: 200vh;
         flex-direction: column;
         justify-content: flex-start;
-
     }
 
     #tudo {
@@ -555,10 +552,36 @@ ul {
 
     #header {
         display: flex;
-        height: 15vh;
+        height: 30vh;
         align-items: center;
         text-decoration: none;
         flex-direction: column;
         justify-content: space-around;
     }
+    #marcas{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        
+    }
+    
+    #log-in{
+        display: flex;
+        width: 40vw;
+        
+    }
+    #espaco_nl{
+        display: flex;
+        height: 2vh;
+    }
+    #HSY{
+        width: 100vw;
+    }
+    #rodape{
+        display: flex;
+        height: 30vh;
+    }
+    
 }
