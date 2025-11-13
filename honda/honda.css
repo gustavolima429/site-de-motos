@@ -113,6 +113,7 @@ body {
     border: 1px solid;
     border-left: 10px;
 }
+
 #motoH {
     grid-row-start: 2;
     grid-column-start: 7;
@@ -153,7 +154,7 @@ body {
     width: 15vw;
     flex-direction: column;
     align-items: center;
-    text-align: center; 
+    text-align: center;
 }
 
 #qulometragem {
@@ -165,7 +166,7 @@ body {
 #lugar {
     display: flex;
     height: 2vh;
-    width: 1vw; 
+    width: 1vw;
     flex-direction: column;
 }
 
@@ -203,7 +204,7 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    
+
 }
 
 a {
@@ -222,24 +223,29 @@ a {
     justify-content: center;
 }
 
-#nome-loja{
+#nome-loja {
     display: flex;
     flex-direction: row;
 }
-#azul{
+
+#azul {
     color: blue;
 }
-#roxo{
+
+#roxo {
     color: purple;
 }
+
 #vermelho {
     color: red;
 }
-#jjj{
+
+#jjj {
     display: flex;
     width: 30vw;
 }
-#rodape{
+
+#rodape {
     display: flex;
     background-color: rgb(134, 133, 133);
     height: 20vh;

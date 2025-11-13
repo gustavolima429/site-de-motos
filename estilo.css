@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 body {
     font-family: Verdana, Tahoma, sans-serif;
 }
+
 a {
     text-decoration: none;
 }
@@ -17,7 +18,7 @@ a {
 
 #header {
     display: flex;
-    height: 10vh;
+    height: 15vh;
     align-items: center;
     text-decoration: none;
     justify-content: space-around;
@@ -28,8 +29,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 40vw;
-    border-right: 300px solid white;
 }
 
 #espaço {
@@ -47,10 +46,33 @@ ul {
 
 #marcas {
     display: flex;
-    width: 50vw;
+    width: 30vw;
     text-decoration: none;
-    justify-content:space-around ;
+    justify-content: space-around;
+    flex-direction: column;
 }
+
+#HSY {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30vw;
+    border-bottom: 10px solid white;
+}
+
+#versao {
+    display: flex;
+    flex-direction: row;
+}
+
+#T {
+    color: white;
+}
+
+#M {
+    color: white;
+}
+
 #marcas h2 {
     display: flex;
     text-decoration: none;
@@ -153,17 +175,18 @@ ul {
 #vermelho {
     color: red;
 }
-#fotoloja{
+
+#fotoloja {
     display: flex;
     height: 7vh;
 }
 
 #banner {
     display: flex;
-    width: 100vw;
+    width: 99vw;
     justify-content: center;
-    background-color: blue;
-    justify-content: space-around ;
+    justify-content: space-around;
+    overflow: hidden;
 }
 
 #banner_animado {
@@ -172,8 +195,8 @@ ul {
     justify-content: center;
     justify-content: space-around;
     border-radius: 20px;
-    animation: animacao  40s infinite linear;
-    background-color: blueviolet;
+    animation: animacao 30s infinite linear;
+
 }
 
 @keyframes animacao {
@@ -183,7 +206,7 @@ ul {
     }
 
     100% {
-        teransform: translateX(1px);
+        transform: translateX(400px);
     }
 
 }
@@ -231,13 +254,70 @@ ul {
     height: 30vh;
     width: 20vw;
     border-radius: 20px;
-    
-
-
 }
 
+#motoR2 img {
+    display: flex;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+#motoR3 img {
+    display: flex;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+#motoR4 img {
+    display: flex;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+#motoR2 {
+    display: flex;
+    height: 45vh;
+    width: 20vw;
+    background-color: grey;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+#motoR3 {
+    display: flex;
+    height: 45vh;
+    width: 20vw;
+    background-color: grey;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+#motoR4 {
+    display: flex;
+    height: 45vh;
+    width: 20vw;
+    background-color: grey;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
 /*sistema de login (nao funciona)*/
-#log-in{
+#log-in {
     display: flex;
     background-color: dimgray;
     width: 15vw;
@@ -245,24 +325,240 @@ ul {
     text-decoration: none;
     align-items: center;
     justify-content: center;
-    border-radius: 100px;
+    border-radius: 10px;
 }
+
 #log-in a {
     display: flex;
     text-decoration: none;
-    color: rgb(247, 20, 4);
+    color: darkred;
     width: 15vw;
     height: 7vh;
     align-items: center;
     justify-content: center;
-    border-radius: 100px;
+    border-radius: 20px;
 }
+
 #ver-moto {
     display: flex;
-    width: 7vw;
+    width: 15vw;
     height: 7vh;
     background-color: darkgray;
     justify-content: center;
     align-items: center;
-    border-radius: 100px;
+    border-radius: 20px;
+}
+
+@media (max-width:850px) {
+
+    #header {
+        display: flex;
+    }
+
+    #marcas {
+        display: flex;
+        justify-content: space-around;
+        height: 15vh;
+        width: 79px;
+        justify-content: space-around;
+        border-right: 15px solid white;
+
+    }
+
+    #HSY {
+        display: flex;
+        width: 40vw;
+    }
+
+    #header ul {
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+
+    }
+
+    #nome-loja {
+        display: flex;
+        border-right: 15px solid white;
+    }
+
+    #log-in {
+        display: flex;
+    }
+
+    #ver-moto {
+        display: flex;
+        width: 15vw;
+    }
+
+    #T {
+        color: black;
+    }
+
+    #M {
+        color: white;
+    }
+
+    #CT {
+        color: white;
+    }
+
+
+
+
+
+}
+
+@media (max-width:425px) {
+    #T {
+        color: white;
+    }
+
+    #M {
+        color: black;
+    }
+
+    #CT {
+        color: white;
+    }
+
+    .Ftb {
+        display: flex;
+        height: 30vh;
+    }
+
+    #banner_animado {
+        display: flex;
+        height: 30vh;
+        justify-content: center;
+        justify-content: space-around;
+        border-radius: 20px;
+        animation: animacao 20s infinite linear;
+
+    }
+
+    @keyframes animacao {
+
+        0% {
+            transform: translateX(-1500px);
+        }
+
+        100% {
+            transform: translateX(100px);
+        }
+
+    }
+
+    #banner_animado {
+        color: white;
+    }
+
+    #motos_em_destaque {
+        display: flex;
+        height: 2 00vh;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+
+    #tudo {
+        display: flex;
+        height: 200vh;
+
+    }
+
+    #motoR1 img {
+        display: flex;
+        height: 40vh;
+        width: 50vw;
+        border-radius: 20px;
+    }
+
+    #motoR2 img {
+        display: flex;
+        height: 40vh;
+        width: 50vw;
+        border-radius: 20px;
+    }
+
+    #motoR3 img {
+        display: flex;
+        height: 40vh;
+        width: 50vw;
+        border-radius: 20px;
+    }
+
+    #motoR4 img {
+        display: flex;
+        height: 40vh;
+        width: 50vw;
+        border-radius: 20px;
+    }
+
+    #motoR1 {
+        display: flex;
+        height: 45vh;
+        width: 50vw;
+        background-color: grey;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #motoR2 {
+        display: flex;
+        height: 45vh;
+        width: 50vw;
+        background-color: grey;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+
+    #motoR3 {
+        display: flex;
+        height: 45vh;
+        width: 50vw;
+        background-color: grey;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+
+    #motoR4 {
+        display: flex;
+        height: 45vh;
+        width: 50vw;
+        background-color: grey;
+        border-radius: 20px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #ver-moto {
+        display: flex;
+        width: 40vw;
+        height: 7vh;
+        background-color: darkgray;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+
+    #header {
+        display: flex;
+        height: 15vh;
+        align-items: center;
+        text-decoration: none;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
