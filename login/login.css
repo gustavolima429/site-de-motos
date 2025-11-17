@@ -13,7 +13,9 @@ body {
 
 a {
     text-decoration: none;
+
 }
+
 
 #header {
     display: flex;
@@ -124,7 +126,7 @@ a {
 #d2 {
     display: flex;
     height: 170vh;
-    width: 37vw;
+    width: 50vw;
     justify-content: center;
 
 }
