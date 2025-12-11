@@ -251,6 +251,7 @@ a {
     background-color: rgb(134, 133, 133);
     height: 20vh;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border-radius: 20px;
     
@@ -419,4 +420,16 @@ a {
         width: 113vw;
         
     }
+}
+#tema{
+    display: flex;
+    width: 35vw;
+    height: 18vh;
+    align-items: center;
+    justify-content: center;
+}
+#temas-CE{
+    display: flex;
+    width: 30vw;
+    height: 15vh;
 }

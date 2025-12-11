@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="../images/453537.png" type="image/x-icon">
 </head>
 
-<body>
+<body id="body">
 
     <header id="header">
         <div id="HV">
@@ -327,7 +327,20 @@
 
         <h2>&copy; Todos os direitos reservados</h2>
 
+        <div id="tema">
+            <div id="temas-CE">
+                <input type="radio" id="tema-escuro" name="tema" value="1"onclick="mudartema('black')">
+                <label for="html">Escuro</label>
+                <br>
+                <input type="radio" id="tema-claro" name="tema" value="2"onclick="mudartema('white')">
+                <label for="html">Claro</label>
+                <br>
+            </div>
+        </div>
+
     </div>
+    
+    <script src="../estilo.js"></script>
 
 </body>
 

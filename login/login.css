@@ -216,3 +216,15 @@ a {
         width: 45vw;
     }
 }
+#tema{
+    display: flex;
+    width: 35vw;
+    height: 18vh;
+    align-items: center;
+    justify-content: center;
+}
+#temas-CE{
+    display: flex;
+    width: 30vw;
+    height: 15vh;
+}

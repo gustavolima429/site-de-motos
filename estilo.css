@@ -214,7 +214,6 @@ ul {
     display: flex;
     height: 80vh;
     background: #3300ff;
-    background: linear-gradient(60deg, rgba(51, 0, 255, 1) 0%, rgba(0, 30, 255, 1) 24%, rgba(0, 229, 255, 1) 100%);
     border-radius: 20px;
     justify-content: center;
     align-items: center;
@@ -584,4 +583,17 @@ ul {
         height: 30vh;
     }
     
+}
+
+#tema{
+    display: flex;
+    width: 35vw;
+    height: 18vh;
+    align-items: center;
+    justify-content: center;
+}
+#temas-CE{
+    display: flex;
+    width: 30vw;
+    height: 15vh;
 }

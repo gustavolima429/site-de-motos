@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="login.css">
 </head>
 
-<body>
+<body id="body">
 
     <header id="header">
 
@@ -121,8 +121,19 @@
             <h2>&copy; Todos os direitos reservados</h2>
         </div>
 
-    </div>
+        <div id="tema">
+            <div id="temas-CE">
+                <input type="radio" id="tema-escuro" name="tema" value="1"onclick="mudartema('black')">
+                <label for="html">Escuro</label>
+                <br>
+                <input type="radio" id="tema-claro" name="tema" value="2"onclick="mudartema('white')">
+                <label for="html">Claro</label>
+                <br>
+            </div>
+        </div>
 
+    </div>
+    <script src="../estilo.js"></script>
 </body>
 
 </html>
